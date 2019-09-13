@@ -6,13 +6,16 @@ body{
   margin: auto;
   padding-top: 20px;
 }
-h1{
-  /*creates a background image of header1 the repeat makes sure that the photo does not repeat and the sizing of the background allows for the image to span across the website boundary*/
+header {
   padding-left: 20px;
   padding-top: 10px;
   background-image: url(sunset.jpg);
   background-repeat: no-repeat;
   background-size:100% 65px;
+}
+h1{
+  /*creates a background image of header1 the repeat makes sure that the photo does not repeat and the sizing of the background allows for the image to span across the website boundary*/
+
   color: white;
   margin: 0;
   font-size: 34px;
