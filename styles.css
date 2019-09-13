@@ -1,0 +1,71 @@
+body{
+  /*this is how you make the background change colors from one color to the next*/
+  background-image: linear-gradient(to bottom,rgb(84,168,214), rgb(192, 223, 241),
+                                    rgb(84,168,214));
+  width: 75%;
+  margin: auto;
+  padding-top: 20px;
+}
+h1{
+  /*creates a background image of header1 the repeat makes sure that the photo does not repeat and the sizing of the background allows for the image to span across the website boundary*/
+  padding-left: 20px;
+  padding-top: 10px;
+  background-image: url(sunset.jpg);
+  background-repeat: no-repeat;
+  background-size:100% 65px;
+  color: white;
+  margin: 0;
+  font-size: 34px;
+  font-weight: bold;}
+nav{
+  background-color: rgb(143,199,228);
+  padding-left: 20px;
+  ;
+}
+nav a {
+  font-family: "helvetica";
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+h2 {
+  margin: 0;
+  color: rgb(73,146,178);
+  padding-left: 20px;}
+p{
+  font-family: "helvetica";
+  color: gray;
+  padding-left: 20px;
+  }
+img {
+  display: block;
+}
+ul {
+  color: gray;
+}
+h3 {
+  font-family: "helvetica";
+  padding-left: 20px;
+  color: rgb(73, 76, 85);
+  font-size: 18px;
+}
+b {
+  color: rgb(73, 76, 85);
+  font-size: 18px;
+}
+dl {
+  font-family: "helvetica";
+  background-color: white;
+  color: gray;
+  padding-left: 20px;
+}
+.back {
+  background-color: white;
+}
+#myID
+  {
+    background-color white;
+    text-align: center;
+    font-size: 12.5px;
+    color: gray;}
